@@ -1,4 +1,4 @@
-import React from 'react'
+
 import KeyboardDoubleArrowRightIcon from "@mui/icons-material/KeyboardDoubleArrowRight";
 import VisibilityOffIcon from "@mui/icons-material/VisibilityOff";
 import ImportExportIcon from "@mui/icons-material/ImportExport";
@@ -62,8 +62,6 @@ const ToolBar = () => {
       </div>
     </div>
   );
-}
+};
 
-
-
-export default ToolBar
+export default ToolBar;
