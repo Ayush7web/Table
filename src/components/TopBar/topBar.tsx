@@ -12,7 +12,7 @@ const TopBar = () => {
       <div className="w-[35%] h-[32px] flex items-center my-2 mx-7 gap-4 ">
         <div className="w-[24px] h-[24px]">
           <img
-            src="src/icons/Shape.png"
+            src="icons/Shape.png"
             alt=""
             className="h-[22px] w-[24px] "
           />
@@ -64,7 +64,7 @@ const TopBar = () => {
 
         {/* -----Image--------- */}
         <div className="flex w-full gap-7 justify-center items-center">
-        <img src="src/images/ayush-image.jpg" alt="" className="w-9 h-9 rounded-full relative left-3 cursor-pointer" />
+        <img src="images/ayush-image.jpg" alt="" className="w-9 h-9 rounded-full relative left-3 cursor-pointer" />
         <div className="font-medium">Ayush Kumar
           <div className="text-gray-400">Ayush.kumar.....</div>
         </div>
