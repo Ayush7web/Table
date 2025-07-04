@@ -10,7 +10,7 @@ import VerticalAlignTopOutlinedIcon from "@mui/icons-material/VerticalAlignTopOu
 
 const ToolBar = () => {
   return (
-    <div className="flex w-full h-[50px] md: items-center gap-6 border-b px-8 py-2 border-gray-200 pb-1 text-sm font-medium text-black shadow-sm justify-between ">
+    <div className="flex w-[115%] h-[50px] md: items-center gap-6 border-b px-8 py-2 border-gray-200 pb-1 text-sm font-medium text-black shadow-sm justify-between ">
       {/* left part of this navbar  */}
       <button className="flex items-center gap-1 ">
         <span>Tool bar</span>

@@ -3,11 +3,11 @@ import MoreHorizIcon from "@mui/icons-material/MoreHoriz";
 import SearchIcon from "@mui/icons-material/Search";
 import NotificationsNoneIcon from "@mui/icons-material/NotificationsNone";
 import Image from "../../Image/ayush-image.jpg";
-import Icon from '../../Icon/Shape.png'
+import Icon from "../../Icon/Shape.png";
 
 const TopBar = () => {
   return (
-    <div className="md: w-full h-[60px] flex shadow-sm border-b border-gray-300 items-center justify-between px-2 py-2">
+    <div className="md: w-[115%] h-[60px] flex shadow-sm border-b border-gray-300 items-center justify-between px-2 py-2">
       {/* for left section  */}
       {/* for icon  */}
       <div className="w-[35%] h-[32px] flex items-center my-2 mx-7 gap-4 ">

@@ -11,7 +11,7 @@ import AddIcon from "@mui/icons-material/Add";
 const TableColumn = () => {
   return (
     <div>
-      <table className="w-full border border-gray-300 text-sm text-left ">
+      <table className="w-[115%]  border border-gray-300 text-sm text-left  ">
         {/* Actual column headers */}
         <thead>
           <tr className="bg-gray-200 text-gray-600 text-sm">
