@@ -1,4 +1,3 @@
-
 import HomeRepairServiceIcon from "@mui/icons-material/HomeRepairService";
 import CalculateIcon from "@mui/icons-material/Calculate";
 import ExpandCircleDownIcon from "@mui/icons-material/ExpandCircleDown";
@@ -6,12 +5,12 @@ import PersonIcon from "@mui/icons-material/Person";
 import LanguageIcon from "@mui/icons-material/Language";
 import EmojiEmotionsIcon from "@mui/icons-material/EmojiEmotions";
 import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
-import AddIcon from "@mui/icons-material/Add";
+
 
 const TableColumn = () => {
   return (
     <div>
-      <table className="w-[115%]  border border-gray-300 text-sm text-left  ">
+      <table className="w-[1440px] border border-gray-300 text-sm text-left">
         {/* Actual column headers */}
         <thead>
           <tr className="bg-gray-200 text-gray-600 text-sm">
@@ -57,7 +56,7 @@ const TableColumn = () => {
               </div>
             </th>
 
-            <th className="border px-2 py-2">
+            <th className="border px-2 py-2 bg-green-100">
               <div className="flex items-center gap-x-1">
                 <EmojiEmotionsIcon fontSize="small" />
                 <span>Assigned</span>
@@ -65,12 +64,16 @@ const TableColumn = () => {
               </div>
             </th>
 
-            <th className="border px-2 py-2 text-center">Priority</th>
-            <th className="border px-2 py-2 text-center">Due Date</th>
-            <th className="border px-2 py-2 text-center">Est. Value</th>
-            <th className="border px-2 py-2 text-center">
-              <AddIcon fontSize="small" />
+            <th className="border px-2 py-2 text-center bg-purple-200">
+              Priority
             </th>
+            <th className="border px-2 py-2 text-center bg-purple-200">
+              Due Date
+            </th>
+            <th className="border px-2 py-2 text-center bg-orange-200">
+              Est. Value
+            </th>
+            <th className="border px-2 py-2 text-center"></th>
           </tr>
         </thead>
 
@@ -205,21 +208,7 @@ const TableColumn = () => {
           </tr>
 
           <tr>
-            <td className="border h-[35px]"></td>
-            <td className="border h-[35px]"></td>
-            <td className="border h-[35px]"></td>
-            <td className="border h-[35px]"></td>
-            <td className="border h-[35px]"></td>
-            <td className="border h-[35px]"></td>
-            <td className="border h-[35px]"></td>
-            <td className="border h-[35px]"></td>
-            <td className="border h-[35px]"></td>
-            <td className="border h-[35px]"></td>
-            <td className="border px-4 py-2"></td>
-          </tr>
-
-          <tr>
-            <td className="border h-[35px]"></td>
+            <td className="border px-4 py-2">6</td>
             <td className="border h-[35px]"></td>
             <td className="border h-[35px]"></td>
             <td className="border h-[35px]"></td>
@@ -233,21 +222,7 @@ const TableColumn = () => {
           </tr>
 
           <tr>
-            <td className="border h-[35px]"></td>
-            <td className="border h-[35px]"></td>
-            <td className="border h-[35px]"></td>
-            <td className="border h-[35px]"></td>
-            <td className="border h-[35px]"></td>
-            <td className="border h-[35px]"></td>
-            <td className="border h-[35px]"></td>
-            <td className="border h-[35px]"></td>
-            <td className="border h-[35px]"></td>
-            <td className="border h-[35px]"></td>
-            <td className="border px-4 py-2"></td>
-          </tr>
-
-          <tr>
-            <td className="border h-[35px]"></td>
+            <td className="border px-4 py-2">7</td>
             <td className="border h-[35px]"></td>
             <td className="border h-[35px]"></td>
             <td className="border h-[35px]"></td>
@@ -261,21 +236,7 @@ const TableColumn = () => {
           </tr>
 
           <tr>
-            <td className="border h-[35px]"></td>
-            <td className="border h-[35px]"></td>
-            <td className="border h-[35px]"></td>
-            <td className="border h-[35px]"></td>
-            <td className="border h-[35px]"></td>
-            <td className="border h-[35px]"></td>
-            <td className="border h-[35px]"></td>
-            <td className="border h-[35px]"></td>
-            <td className="border h-[35px]"></td>
-            <td className="border h-[35px]"></td>
-            <td className="border px-4 py-2"></td>
-          </tr>
-
-          <tr>
-            <td className="border h-[35px]"></td>
+            <td className="border px-4 py-2">8</td>
             <td className="border h-[35px]"></td>
             <td className="border h-[35px]"></td>
             <td className="border h-[35px]"></td>
@@ -289,7 +250,49 @@ const TableColumn = () => {
           </tr>
 
           <tr>
+            <td className="border px-4 py-2">9</td>
             <td className="border h-[35px]"></td>
+            <td className="border h-[35px]"></td>
+            <td className="border h-[35px]"></td>
+            <td className="border h-[35px]"></td>
+            <td className="border h-[35px]"></td>
+            <td className="border h-[35px]"></td>
+            <td className="border h-[35px]"></td>
+            <td className="border h-[35px]"></td>
+            <td className="border h-[35px]"></td>
+            <td className="border px-4 py-2"></td>
+          </tr>
+
+          <tr>
+            <td className="border px-4 py-2">10</td>
+            <td className="border h-[35px]"></td>
+            <td className="border h-[35px]"></td>
+            <td className="border h-[35px]"></td>
+            <td className="border h-[35px]"></td>
+            <td className="border h-[35px]"></td>
+            <td className="border h-[35px]"></td>
+            <td className="border h-[35px]"></td>
+            <td className="border h-[35px]"></td>
+            <td className="border h-[35px]"></td>
+            <td className="border px-4 py-2"></td>
+          </tr>
+
+          <tr>
+            <td className="border px-4 py-2">11</td>
+            <td className="border h-[35px]"></td>
+            <td className="border h-[35px]"></td>
+            <td className="border h-[35px]"></td>
+            <td className="border h-[35px]"></td>
+            <td className="border h-[35px]"></td>
+            <td className="border h-[35px]"></td>
+            <td className="border h-[35px]"></td>
+            <td className="border h-[35px]"></td>
+            <td className="border h-[35px]"></td>
+            <td className="border px-4 py-2"></td>
+          </tr>
+
+          <tr>
+            <td className="border px-4 py-2">12</td>
             <td className="border h-[35px]"></td>
             <td className="border h-[35px]"></td>
             <td className="border h-[35px]"></td>
@@ -303,21 +306,7 @@ const TableColumn = () => {
           </tr>
         </tbody>
         <tr>
-          <td className="border h-[35px]"></td>
-          <td className="border h-[35px]"></td>
-          <td className="border h-[35px]"></td>
-          <td className="border h-[35px]"></td>
-          <td className="border h-[35px]"></td>
-          <td className="border h-[35px]"></td>
-          <td className="border h-[35px]"></td>
-          <td className="border h-[35px]"></td>
-          <td className="border h-[35px]"></td>
-          <td className="border h-[35px]"></td>
-          <td className="border px-4 py-2"></td>
-        </tr>
-
-        <tr>
-          <td className="border h-[35px]"></td>
+          <td className="border px-4 py-2">13</td>
           <td className="border h-[35px]"></td>
           <td className="border h-[35px]"></td>
           <td className="border h-[35px]"></td>
@@ -331,21 +320,7 @@ const TableColumn = () => {
         </tr>
 
         <tr>
-          <td className="border h-[35px]"></td>
-          <td className="border h-[35px]"></td>
-          <td className="border h-[35px]"></td>
-          <td className="border h-[35px]"></td>
-          <td className="border h-[35px]"></td>
-          <td className="border h-[35px]"></td>
-          <td className="border h-[35px]"></td>
-          <td className="border h-[35px]"></td>
-          <td className="border h-[35px]"></td>
-          <td className="border h-[35px]"></td>
-          <td className="border px-4 py-2"></td>
-        </tr>
-
-        <tr>
-          <td className="border h-[35px]"></td>
+          <td className="border px-4 py-2">14</td>
           <td className="border h-[35px]"></td>
           <td className="border h-[35px]"></td>
           <td className="border h-[35px]"></td>
@@ -359,21 +334,7 @@ const TableColumn = () => {
         </tr>
 
         <tr>
-          <td className="border h-[35px]"></td>
-          <td className="border h-[35px]"></td>
-          <td className="border h-[35px]"></td>
-          <td className="border h-[35px]"></td>
-          <td className="border h-[35px]"></td>
-          <td className="border h-[35px]"></td>
-          <td className="border h-[35px]"></td>
-          <td className="border h-[35px]"></td>
-          <td className="border h-[35px]"></td>
-          <td className="border h-[35px]"></td>
-          <td className="border px-4 py-2"></td>
-        </tr>
-
-        <tr>
-          <td className="border h-[35px]"></td>
+          <td className="border px-4 py-2">15</td>
           <td className="border h-[35px]"></td>
           <td className="border h-[35px]"></td>
           <td className="border h-[35px]"></td>
@@ -387,21 +348,7 @@ const TableColumn = () => {
         </tr>
 
         <tr>
-          <td className="border h-[35px]"></td>
-          <td className="border h-[35px]"></td>
-          <td className="border h-[35px]"></td>
-          <td className="border h-[35px]"></td>
-          <td className="border h-[35px]"></td>
-          <td className="border h-[35px]"></td>
-          <td className="border h-[35px]"></td>
-          <td className="border h-[35px]"></td>
-          <td className="border h-[35px]"></td>
-          <td className="border h-[35px]"></td>
-          <td className="border px-4 py-2"></td>
-        </tr>
-
-        <tr>
-          <td className="border h-[35px]"></td>
+          <td className="border px-4 py-2">16</td>
           <td className="border h-[35px]"></td>
           <td className="border h-[35px]"></td>
           <td className="border h-[35px]"></td>
@@ -415,21 +362,7 @@ const TableColumn = () => {
         </tr>
 
         <tr>
-          <td className="border h-[35px]"></td>
-          <td className="border h-[35px]"></td>
-          <td className="border h-[35px]"></td>
-          <td className="border h-[35px]"></td>
-          <td className="border h-[35px]"></td>
-          <td className="border h-[35px]"></td>
-          <td className="border h-[35px]"></td>
-          <td className="border h-[35px]"></td>
-          <td className="border h-[35px]"></td>
-          <td className="border h-[35px]"></td>
-          <td className="border px-4 py-2"></td>
-        </tr>
-
-        <tr>
-          <td className="border h-[35px]"></td>
+          <td className="border px-4 py-2">17</td>
           <td className="border h-[35px]"></td>
           <td className="border h-[35px]"></td>
           <td className="border h-[35px]"></td>
@@ -443,7 +376,105 @@ const TableColumn = () => {
         </tr>
 
         <tr>
+          <td className="border px-4 py-2">18</td>
           <td className="border h-[35px]"></td>
+          <td className="border h-[35px]"></td>
+          <td className="border h-[35px]"></td>
+          <td className="border h-[35px]"></td>
+          <td className="border h-[35px]"></td>
+          <td className="border h-[35px]"></td>
+          <td className="border h-[35px]"></td>
+          <td className="border h-[35px]"></td>
+          <td className="border h-[35px]"></td>
+          <td className="border px-4 py-2"></td>
+        </tr>
+
+        <tr>
+          <td className="border px-4 py-2">19</td>
+          <td className="border h-[35px]"></td>
+          <td className="border h-[35px]"></td>
+          <td className="border h-[35px]"></td>
+          <td className="border h-[35px]"></td>
+          <td className="border h-[35px]"></td>
+          <td className="border h-[35px]"></td>
+          <td className="border h-[35px]"></td>
+          <td className="border h-[35px]"></td>
+          <td className="border h-[35px]"></td>
+          <td className="border px-4 py-2"></td>
+        </tr>
+
+        <tr>
+          <td className="border px-4 py-2">20</td>
+          <td className="border h-[35px]"></td>
+          <td className="border h-[35px]"></td>
+          <td className="border h-[35px]"></td>
+          <td className="border h-[35px]"></td>
+          <td className="border h-[35px]"></td>
+          <td className="border h-[35px]"></td>
+          <td className="border h-[35px]"></td>
+          <td className="border h-[35px]"></td>
+          <td className="border h-[35px]"></td>
+          <td className="border px-4 py-2"></td>
+        </tr>
+
+        <tr>
+          <td className="border px-4 py-2">21</td>
+          <td className="border h-[35px]"></td>
+          <td className="border h-[35px]"></td>
+          <td className="border h-[35px]"></td>
+          <td className="border h-[35px]"></td>
+          <td className="border h-[35px]"></td>
+          <td className="border h-[35px]"></td>
+          <td className="border h-[35px]"></td>
+          <td className="border h-[35px]"></td>
+          <td className="border h-[35px]"></td>
+          <td className="border px-4 py-2"></td>
+        </tr>
+
+        <tr>
+          <td className="border px-4 py-2">22</td>
+          <td className="border h-[35px]"></td>
+          <td className="border h-[35px]"></td>
+          <td className="border h-[35px]"></td>
+          <td className="border h-[35px]"></td>
+          <td className="border h-[35px]"></td>
+          <td className="border h-[35px]"></td>
+          <td className="border h-[35px]"></td>
+          <td className="border h-[35px]"></td>
+          <td className="border h-[35px]"></td>
+          <td className="border px-4 py-2"></td>
+        </tr>
+
+        <tr>
+          <td className="border px-4 py-2">23</td>
+          <td className="border h-[35px]"></td>
+          <td className="border h-[35px]"></td>
+          <td className="border h-[35px]"></td>
+          <td className="border h-[35px]"></td>
+          <td className="border h-[35px]"></td>
+          <td className="border h-[35px]"></td>
+          <td className="border h-[35px]"></td>
+          <td className="border h-[35px]"></td>
+          <td className="border h-[35px]"></td>
+          <td className="border px-4 py-2"></td>
+        </tr>
+
+        <tr>
+          <td className="border px-4 py-2">24</td>
+          <td className="border h-[35px]"></td>
+          <td className="border h-[35px]"></td>
+          <td className="border h-[35px]"></td>
+          <td className="border h-[35px]"></td>
+          <td className="border h-[35px]"></td>
+          <td className="border h-[35px]"></td>
+          <td className="border h-[35px]"></td>
+          <td className="border h-[35px]"></td>
+          <td className="border h-[35px]"></td>
+          <td className="border px-4 py-2"></td>
+        </tr>
+
+        <tr>
+          <td className="border px-4 py-2">25</td>
           <td className="border h-[35px]"></td>
           <td className="border h-[35px]"></td>
           <td className="border h-[35px]"></td>
